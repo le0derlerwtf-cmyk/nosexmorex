@@ -1,0 +1,33 @@
+{
+  "schemaVersion": 1,
+  "id": "maceswap",
+  "version": "1.5-1.21-1.21.1",
+  "name": "AppleSkin",
+  "description": "Food/hunger-related HUD improvements",
+  "authors": [
+    "squeek502"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/maceswap/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.Cna4ik.maceswap.client.MaceSwapClient"
+    ],
+    "modmenu": [
+      "com.Cna4ik.maceswap.config.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "maceswap.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": ">=1.21 <=1.21.1",
+    "java": ">=21",
+    "fabric-api": "*",
+    "cloth-config": "*",
+    "modmenu": "*"
+  }
+}
