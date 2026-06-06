@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.Cna4ik.maceswap.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "AttackMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
