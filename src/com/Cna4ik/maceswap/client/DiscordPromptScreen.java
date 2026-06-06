@@ -67,6 +67,12 @@ extends class_437 {
         int msgX = (this.field_22789 - msgWidth) / 2;
         int msgY = this.field_22790 - 85;
         context.method_27535(this.field_22793, (class_2561)msgText, msgX, msgY, -5592406);
+        
+        // le0derler edition branding in purple
+        class_5250 editionText = class_2561.method_43471((String)"le0derler edition");
+        int editionWidth = this.field_22793.method_27525((class_5348)editionText);
+        int editionX = (this.field_22789 - editionWidth) / 2;
+        int editionY = this.field_22790 - 30;
+        context.method_27535(this.field_22793, (class_2561)editionText, editionX, editionY, 11184810); // Purple color
     }
 }
-
