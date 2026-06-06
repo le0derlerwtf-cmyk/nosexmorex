@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "maceswap",
+  "version": "1.5-1.21-1.21.1",
+  "name": "LyricaClient - Mace Swap le0derler Edition",
+  "description": "Advanced Mace Swap with LyricaClient indicator and customizable features",
+  "authors": [
+    "le0derler",
+    "Cna4ik"
+  ],
+  "contact": {
+    "repo": "https://github.com/le0derlerwtf-cmyk/nosexmorex"
+  },
+  "license": "MIT",
+  "icon": "assets/maceswap/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.Cna4ik.maceswap.client.MaceSwapClient"
+    ],
+    "modmenu": [
+      "com.Cna4ik.maceswap.config.ModMenuIntegration"
+    ]
+  },
+  "mixins": [
+    "maceswap.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": ">=1.21 <=1.21.1",
+    "java": ">=21",
+    "fabric-api": "*",
+    "cloth-config": "*",
+    "modmenu": "*"
+  }
+}
